@@ -209,21 +209,6 @@ files = [
 ]
 
 [[package]]
-name = "telebot"
-version = "0.0.5"
-description = "A Telegram bot library, with simple route decorators."
-optional = false
-python-versions = "*"
-files = [
-    {file = "telebot-0.0.5-py3-none-any.whl", hash = "sha256:50327c240243480d40ade4ea5bea4f464bf57d4ff000ea669fcd705396074863"},
-    {file = "telebot-0.0.5.tar.gz", hash = "sha256:848a5885b57247b65edd0e92647b4372ebd8d41611dca3f344788c11deac2571"},
-]
-
-[package.dependencies]
-pyTelegramBotAPI = "*"
-requests = "*"
-
-[[package]]
 name = "urllib3"
 version = "2.0.4"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -243,4 +228,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "4b219b8a274a72a00c1d2eef32b5fc7a9b1d87badf9752795da01dc210b66291"
+content-hash = "dfbce04a4e294f3db6f540b0c3b63610520920e49eb5194af56562a1eac24e31"
