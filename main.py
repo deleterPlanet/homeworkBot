@@ -1,6 +1,5 @@
 import telebot
 from telebot import types
-from telebot import apihelper
 import sqlite3
 import requests
 from bs4 import BeautifulSoup
@@ -10,7 +9,6 @@ import config
 
 load_dotenv()
 bot = telebot.TeleBot(token=os.environ.get("TOKEN"))
-apihelper.proxy = {config.PROXY_URL}
 
 
 @bot.message_handler(commands=["start"])
