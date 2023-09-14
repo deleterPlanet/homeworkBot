@@ -6,7 +6,7 @@ authors = ["yakus <yakushevi4.a@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 requests = "^2.31.0"
 bs4 = "^0.0.1"
 python-dotenv = "^1.0.0"
